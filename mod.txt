@@ -1,0 +1,60 @@
+{
+  "name" : "(Good) Working Thanatos Bipod",
+  "description" : "Allows the use of the already existing bipod model of the Thanatos and some cool thingies",
+  "author" : "Leiria",
+  "contact" : "pedrono45@discord",
+  "version" : "1.0",
+  "priority" : 10,
+  "color" : "0 255 255",
+  "image": "logo.png",
+  "updates" : [
+	{
+		"identifier" : "(Good) Working Thanatos Bipod",
+		"host" : {
+			"meta" : "https://github.com/Le1ria/-Good-_Working_Thanatos_Bipod/blob/main/meta.json",
+                        "download": "https://github.com/Le1ria/-Good-_Working_Thanatos_Bipod/archive/refs/heads/main.zip",
+                        "patchnotes": "https://modworkshop.net/mod/58410?tab=changelog"
+		}
+	}
+]
+
+"hooks" : [
+
+		{
+			"hook_id": "lib/managers/localizationmanager",
+			"script_path": "desc/desc.lua"
+		},
+		{
+			"hook_id": "lib/tweak_data/weaponfactorytweakdata",
+			"script_path": "lua/WeaponFactorio.lua"
+		},
+		{
+			"hook_id": "lib/tweak_data/playertweakdata",
+			"script_path": "lua/PlayerTweaking.lua"
+		},
+		{
+			"hook_id": "lib/tweak_data/weapontweakdata",
+			"script_path": "lua/WeaponTweaking.lua"
+		},
+		{
+			"hook_id": "lib/units/beings/player/states/playerbipod",
+			"script_path": "lua/BipodingPlayer.lua"
+		},
+		{
+			"hook_id": "lib/tweak_data/lootdroptweakdata",
+			"script_path": "lua/LootDropTweaking.lua"
+		},
+		{
+			"hook_id": "lib/tweak_data/dlctweakdata",
+			"script_path": "lua/DlcTweaking.lua"
+		},
+		{
+			"hook_id": "lib/managers/dlcmanager",
+			"script_path": "lua/managerdlc.lua"
+		},
+		{
+			"hook_id": "lib/units/beings/player/states/playerstandard",
+			"script_path": "lua/StandardPlayer.lua"
+		}
+	]
+}
