@@ -12,8 +12,6 @@
 		"identifier" : "(Good) Working Thanatos Bipod",
 		"host" : {
 			"meta" : "https://github.com/Le1ria/-Good-_Working_Thanatos_Bipod/blob/main/meta.json",
-                        "download": "https://github.com/Le1ria/-Good-_Working_Thanatos_Bipod/archive/refs/heads/main.zip",
-                        "patchnotes": "https://modworkshop.net/mod/58410?tab=changelog"
 		}
 	}
 ]
