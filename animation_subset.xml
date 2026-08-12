@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<tweaks>
+	<tweak version="2" name="anims/fps/fps_spawn" extension="animation_subset">
+		<search>
+			<xml/>
+		</search>
+			
+		<target mode="attach">
+			<anim name="m95_bipod_enter" file="anims/fps/m95/m95_bipod_enter" blend_set="all"/>
+			<anim name="m95_bipod_exit" file="anims/fps/m95/m95_bipod_exit" blend_set="all"/> 
+
+			<anim name="m95_bipod_idle" file="anims/fps/m95/m95_bipod_idle" blend_set="all"/>
+			<anim name="m95_bipod_recoil" file="anims/fps/m95/m95_bipod_recoil" blend_set="all"/> 
+			
+			
+		</target>
+	</tweak>
+</tweaks>

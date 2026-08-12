@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<mod>
+  <assets base_path="assets/">
+    <file name = "units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_m95_pts/wpn_fps_snp_m95_bipod.model" load= "startup"/>
+    <file name = "units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_m95_pts/wpn_fps_snp_m95_bipod.object" load= "startup"/>
+    <file name = "units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_m95_pts/wpn_fps_snp_m95_bipod.unit" load= "startup"/>
+    <file name = "units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_m95_pts/wpn_fps_snp_m95_lower_reciever.model" load= "startup"/>
+    <file name = "units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_m95_pts/wpn_fps_snp_m95_lower_reciever.object" load= "startup"/>
+  </assets>
+
+  <tweak definition="animation_states.xml" />
+  <tweak definition="animation_subset.xml" />
+</mod>

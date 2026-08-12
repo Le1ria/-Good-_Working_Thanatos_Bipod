@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<unit type="wpn" slot="1" >
+    <object file="units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_m95_pts/wpn_fps_snp_m95_bipod" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+        <extension class="WeaponLionGadget1" name="base" />
+    </extensions>
+</unit>

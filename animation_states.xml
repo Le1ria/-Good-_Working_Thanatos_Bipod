@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+
+<tweaks>
+    <tweak version="2" name="anims/fps/fps_spawn" extension="animation_states">
+        <search>
+            <xml/>
+        </search>
+        <target mode="attach">
+            <state name="fps/bipod_enter/m95" type="once" segment="base" speed="1.0">
+                <anim name="m95_bipod_enter"/>
+                <exit name="fps/bipod_idle/m95"/>
+            </state>
+
+            <state name="fps/bipod_exit/m95" type="once" segment="base" speed="1.0">
+                <anim name="m95_bipod_exit"/>
+                <exit name="fps/bipod_idle/m95"/>
+            </state>
+
+            <state name="fps/bipod_idle/m95" type="mixloop" segment="base" speed="1.0">
+                <anim name="m95_bipod_idle"/>   
+            </state>
+
+            <state name="fps/bipod_recoil/m95" type="once" segment="base" speed="1.0">
+                <anim name="m95_bipod_recoil"/>
+                <exit name="fps/bipod_idle/m95"/>
+            </state>
+        </target>
+    </tweak>
+
+
+    <tweak version="2" name="anims/fps/fps_spawn" extension="animation_states">
+        <search>
+            <xml/>
+            <state name="fps"/>
+        </search>
+        <target mode="attach">
+            <to name="bipod_enter_m95"                         redirect="fps/bipod_enter/m95"/>
+            <to name="bipod_exit_m95"                         redirect="fps/bipod_exit/m95"/>
+            <to name="bipod_idle_m95"                         redirect="fps/bipod_idle/m95"/>
+            <to name="bipod_recoil_m95"                         redirect="fps/bipod_recoil/m95"/>
+        </target>
+    </tweak>
+
+</tweaks>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<dynamic_object>
+    <diesel orientation_object="rp_wpn_fps_snp_m95_bipod" materials="units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_m95_pts/wpn_fps_snp_m95_bipod" />
+	<animations>
+		<animation_group name="deploy">
+			<object name="anim_deployL" enabled="true" />
+            <object name="anim_deployR" enabled="true" />
+		</animation_group>
+
+		<animation_group name="undeploy">
+			<object name="anim_undeployL" enabled="true" />
+            <object name="anim_undeployR" enabled="true" />
+		</animation_group>
+	</animations>
+	<graphics>
+        <object enabled="true" name="g_pin" />
+        <object enabled="true" name="g_bipod" />
+		<object enabled="true" name="g_legsL" />
+        <object enabled="true" name="g_legsR" />
+	</graphics>
+</dynamic_object>
